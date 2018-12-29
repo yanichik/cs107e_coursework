@@ -1,0 +1,12 @@
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+permalink: pretty
+exclude:
+  - /cs107e/
+collections:
+  assignments:
+    output: true
+  labs:
+    output: true

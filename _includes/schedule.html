@@ -1,0 +1,368 @@
+<p><strong>Autumn 2018 schedule</strong></p>
+
+<table class="table table-condensed table-striped">
+    <colgroup>
+        <col width="40%" />
+        <col width="60%" />
+    </colgroup>
+    <thead>
+        <tr>
+            <th align="center" style="font-size:16px">Topics</th>
+            <th align="center" style="font-size:16px">Readings</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td><strong>Week 1 Sep 24</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Lecture 1 (Mon): Introduction
+                (<a href="lectures/01_Intro/intro.pdf">slides</a>, <a href="https://youtu.be/pyMyebfMBmY">screencast</a>)
+            </td>
+            <td>Review and Must-know Information
+                <a href="guides/electricity">electricity</a>,
+                <a href="guides/numbers">binary and hexadecimal numbers and bitwise operations</a>,
+                and the <a href="guides/unix">unix command line</a>.
+            </td>
+        </tr>
+        <tr>
+            <td><em>No Labs</em> (Review this library of <a href="http://cs107.stanford.edu/unixref">unix reference documents and videos</a> from CS107)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>{% include link.html href="/assignments/assign0/" %}</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                Lecture 2 (Fri): Introduction to ARM processor, memory architecture, and assembly code
+                (<a href="lectures/03_ASM/asm.pdf">slides</a>, <a href="https://github.com/cs107e/cs107e.github.io/tree/master/lectures/03_ASM/code">code</a>)
+                <br>
+                <a href="https://youtu.be/1b7Lh28Vp5s">Screencast</a>
+            </td>
+            <td>
+                Start with Baking Pi
+                (
+                <a href="http://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/os/introduction.html">intro</a>,
+                <a href="http://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/os/ok01.html">ok01</a>,
+                <a href="http://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/os/ok02.html">ok02</a>
+                )
+                and then read about
+                <a href="http://www.toves.org/books/arm/">ARM ASM</a>.
+
+                I also recommend you read Steven Wolfram's blog post
+                <a href="http://blog.stephenwolfram.com/2015/12/untangling-the-tale-of-ada-lovelace/">Untangling the Tale of Ada Lovelace</a>
+                for a nice descption of
+                Charles Babbage's and Lady Ada Lovelace's roles
+                in developing the concept of a general-purpose computer.
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Week 2 Oct 1</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                Lecture 3: ARM Assembly Language and Machine Code
+                <a href="lectures/03_ASM/asm.pdf">slides</a>,
+                <a href="https://github.com/cs107e/cs107e.github.io/tree/master/lectures/03_ASM/code">code</a>)
+                <br>
+                <a href="https://youtu.be/">Screencast</a>
+            </td>
+            <td>
+                Read/Skim sections 4.1-4.5 from the
+                <a href="readings/armisa.pdf">ARM Instruction Set Architecture</a>
+                manual.
+                Read Danny Cohen's article
+                <a href="readings/holywars.pdf">Holy Wars and a Plea for Peace</a>
+                on the history of littie-endian vs. big-endian.
+            </td>
+        </tr>
+        <tr>
+            <!-- do not uncomment this <td>Lab 1: Setup your Raspberry Pi</td> -->
+            <td><!--{% include link.html href="/labs/lab1/" %}--></td>
+            <td></td>
+        </tr>
+        <tr>
+            <!-- do not uncomment this <td>Assignment 1: Implement a Larson Scanner</td> -->
+            <td><!--{% include link.html href="/assignments/assign1/" %}--></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Lecture 4 (Fri): From ASM to C
+                (<a href="lectures/04_C1/c1.pdf">slides</a>, <a href="https://github.com/cs107e/cs107e.github.io/tree/master/lectures/04_C1/code">code</a>, <a href="https://youtu.be/3EP-UbbFYN0">screencast</a>)
+            </td>
+            <td>Brush up on C syntax, data types, operators, control structure,
+                and function calls.
+                EssentialC chapters 1 and 2;
+                or K&amp;R 1, 2, and 3.
+                Skip sections involving characters, strings,
+                io, and standard libraries.
+                Read about the
+                <a href="https://www.bell-labs.com/usr/dmr/www/chist.html">history of C</a>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Week 3 Oct 8</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Lecture 5 (Mon): C: Pointers and Arrays
+                (<a href="lectures/05_C2/c2.pdf">slides</a>, <a href="https://github.com/cs107e/cs107e.github.io/tree/master/lectures/05_C2/code">code</a>, <a href="https://youtu.be/2Z9eRYvblVA">screencast</a>)
+            </td>
+            <td>
+                EssentialC chapters 3 (skip material on structures)
+                and 6 (skip material on the heap and memory management).;
+                or K&amp;R and 5.1-5.4.
+                Make sure to read the sections involving characters and strings.
+            </td>
+        </tr>
+        <tr>
+            <!-- do not uncomment this
+                <td>Lab 2: Below C Level</td>
+            -->
+            <td><!--{% include link.html href="/labs/lab2/" %}--></td>
+            <td></td>
+        </tr>
+        <tr>
+            <!-- do not uncomment this <td>Assignment 2: Implementing a Clock</td> -->
+            <td><!--{% include link.html href="/assignments/assign2/" %}--></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Lecture 6 (Fri): Functions
+                (<a href="lectures/06_Functions/functions.pdf">slides</a>, <a href="https://youtu.be/-K-zzohoolU">screencast</a>, <a href="https://github.com/cs107e/cs107e.github.io/tree/master/lectures/Functions/06_code">code</a>)
+            </td>
+            <td>Read (or read again) about functions in C
+                (Chapter 4 in K&amp;R, Section 4 in Essential C),
+                Read this nice explanation of
+                <a href="http://thinkingeek.com/2014/05/11/arm-assembler-raspberry-pi-chapter-18/">local data and frame pointers</a>
+            </td> </tr>
+            <tr>
+                <td><strong>Week 4 Oct 15</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Lecture 7 (Mon): Communication and the Serial Protocol
+                    (<a href="lectures/07_Serial/serial.pdf">slides</a>, <a href="https://youtu.be/LErUamayHQk">screencast</a>, <a href="https://github.com/cs107e/cs107e.github.io/tree/master/lectures/Serial/07_code">code</a>)
+                </td>
+                <td>Read about characters and strings, basic IO (getc, putc, puts, printf), and structures (Section 1.5, 1.6, 1.9, 5.5, 6, 7 in K&amp;R; Section 3 in EssentialC).
+                    Read about <a href="https://learn.sparkfun.com/tutorials/serial-communication/all">Serial Communication</a>.
+                </td>
+            </tr>
+            <tr>
+                <!-- do not uncomment this <td>Lab 3: Debugging and Testing</td> -->
+                <td><!--{% include link.html href="/labs/lab3/" %}--></td>
+                <td></td>
+            </tr>
+            <tr>
+                <!-- do not uncomment this <td>Assignment 3: Strings and printf</td> -->
+                <td><!--{% include link.html href="/assignments/assign3/" %}--></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    Lecture 8 (Fri): Modules and Libraries: Linking
+                    (<a href="lectures/08_Linking/linking.pdf">slides</a>, <a href="https://youtu.be/Z6VBJv0iQuA">screencast</a>, <a href="https://github.com/cs107e/cs107e.github.io/tree/master/lectures/Linking/08_code">code</a>)
+                </td>
+                <td>Read David Welch's articles on <a href="https://github.com/dwelch67/raspberrypi/tree/master/baremetal">baremetal programming</a> and <a href="https://github.com/dwelch67/raspberrypi/tree/master/bssdata">bss data</a>.
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Week 5 Oct 22</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    Lecture 9 (Mon): Memory Management
+                    (<a href="lectures/09_Memory/memory.pdf">slides</a>, <a href="https://youtu.be/ZHeN5EX013s">screencast</a>, <a href="https://github.com/cs107e/cs107e.github.io/tree/master/lectures/Memory/09_code">code</a>)
+                </td>
+                <td> </td>
+            </tr>
+            <tr>
+                <!-- do not uncomment this <td>Lab 4: Linking and Loading</td> -->
+                <td><!--{% include link.html href="/labs/lab4/" %}--></td>
+                <td></td>
+            </tr>
+            <tr>
+                <!-- do not uncomment this <td>Assignment 4: Heap memory allocator</td> -->
+                <td><!--{% include link.html href="/assignments/assign4/" %}--></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Lecture 10 (Fri): C mastery
+                    (<a href="lectures/10_C-mastery/C-mastery.pdf">slides</a>, <a href="https://youtu.be/iP5MrBKolXM">Screencast</a>, <a href="https://github.com/cs107e/cs107e.github.io/tree/master/lectures/C-mastery/10_code">code</a>)
+                </td>
+                <td>
+                    <!--
+                        Some more details on MIDI:
+                        <a href="http://www.personal.kent.edu/~sbirch/Music_Production/MP-II/MIDI/midi_physical_layer.htm">physical layer</a>,
+                        <a href="https://ccrma.stanford.edu/~craig/articles/linuxmidi/misc/essenmidi.html">protocol</a>,
+                        <a href="http://media.aadl.org/files/catalog_guides/1444140_chart.pdf">Volta Keys</a>,
+                        <a href="http://media.aadl.org/files/catalog_guides/1445131_chart.pdf">Volta Beats</a>
+                    -->
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Week 6 Oct 29</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    Lecture 11 (Mon): Keyboards and the PS/2 Protocol
+
+                    (<a href="lectures/11_Keyboard/Keyboard.pdf">slides</a>, <a href="https://youtu.be/hRixVqBzwOA">screencast</a>, <a href="https://github.com/cs107e/cs107e.github.io/tree/master/lectures/11_Keyboard/code">code</a>)
+                </td>
+                <td>
+                    Read about the
+                    <a href="http://www.computer-engineering.org/ps2protocol/">PS/2 protocol</a>
+                    for keyboards and mice
+                </td>
+            </tr>
+            <tr>
+                <!-- do not uncomment this <td>Lab 5: Keyboard Surfin</td> -->
+                <td><!--{% include link.html href="/labs/lab5/" %}--></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><!--{% include link.html href="/assignments/assign5/" %}--></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    Lecture 12 (Fri): Graphics and the framebuffer 
+                    (<a href="lectures/12_Framebuffer/Framebuffer.pdf">slides</a>, <a href="https://youtu.be/C280SNgrum0">screencast</a>, <a href="https://github.com/cs107e/cs107e.github.io/tree/master/lectures/12_Framebuffer/code">code</a>)
+                </td>
+                <td>
+                    Read more about the Framebuffer in the Baking Pi lectures
+                    (<a href="http://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/os/screen01.html">Screen01</a>,
+                    <a href="http://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/os/screen02.html">Screen02</a>,
+                    <a href="http://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/os/screen03.html">Screen03</a>,
+                    <a href="http://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/os/screen04.html">Screen04</a>).
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Week 7 Nov 5</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    Lecture 13 (Mon): Interrupts
+                    (<a href="lectures/13_Interrupts1/Interrupts.pdf">slides</a>, <a href="https://github.com/cs107e/cs107e.github.io/tree/master/lectures/13_Interrupts1/code">code</a>, <a href="https://github.com/cs107e/cs107e.github.io/tree/master/lectures/Interrupts1/blink.pdf">minimal timer interrupt example code</a>, <a href="https://youtu.be/FQ3hdLf4Ydk">screencast</a>)
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <!-- do not uncomment this <td>Lab 6: Drawing into the Framebuffer</td> -->
+                <td><!--{% include link.html href="/labs/lab6/" %}--></td>
+                <td></td>
+            </tr>
+            <tr>
+                <!-- do not uncomment this <td>Assignment 6: Building a Graphics Library and Console</td> -->
+                <td><!--{% include link.html href="/assignments/assign6/" %}--></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    Lecture 14 (Fri): Interrupts and Concurrency
+                    (<a href="lectures/14_Interrupts2/Interrupts2.pdf">slides</a>, <a href="https://youtu.be/q0ujtwEELPM">screencast</a>, <a href="https://github.com/cs107e/cs107e.github.io/tree/master/lectures/14_Interrupts2/code">code</a>)
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Week 8 Nov 12</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    Lecture 15 (Mon): Sensors
+                    (<a href="lectures/15_Sensors/sensor.pdf">slides</a>, <a href="https://youtu.be/qBaIvaNjuhs">screencast</a>, <a href="https://github.com/cs107e/cs107e.github.io/tree/master/lectures/15_Sensors/code">code</a>) and Sound (<a href="lectures/Sound/Sound.pdf">slides</a>, <a href="https://github.com/cs107e/cs107e.github.io/tree/master/lectures/Sound/code">code</a>)
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <!-- do not uncomment this <td>Lab 7: Raspberry Pi, Interrupted</td> -->
+                <td><!--{% include link.html href="/labs/lab7/" %}--></td>
+                <td></td>
+            </tr>
+            <tr>
+                <!-- do not uncomment this <td>Assignment 7: Shell with Interrupts</td> -->
+                    <td>
+                <!--
+                    {% include link.html href="/assignments/assign7/" %}
+                    </td>
+                    <td>
+                    Read {% include link.html href="/assignments/project/" %} for inspiration
+                -->
+                    </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    Lecture 16 (Fri): Sensors
+                    <!--(<a href="lectures/Sensors/sensor.pdf">slides</a>, <a href="https://github.com/cs107e/cs107e.github.io/tree/master/lectures/Sensors/code">code</a>), and Sound (<a href="lectures/Sound/Sound.pdf">slides</a>, <a href="https://github.com/cs107e/cs107e.github.io/tree/master/lectures/Sound/code">code</a>)-->
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Week 9 Nov 26</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    Lecture 16 - Performance 
+                    (<a href="lectures/16_Performance/Performance.pdf">slides</a>, <a href="https://youtu.be/HMOeYeIoaOA">screencast</a>, <a href="https://github.com/cs107e/cs107e.github.io/tree/master/lectures/16_Performance/code">code</a>)
+                </td>
+                <td>
+                    <!--
+                        Read Atlassian's guide to the <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow"> Git Feature Branch Workflow </a>
+                    -->
+                </td>
+            </tr>
+                <!--
+                    <tr>
+                    <td>Project Lab 1</td>
+                    <td>{% include link.html href="/labs/projectlab1/" %}</td>
+                    <td></td>
+                    </tr> -->
+                    <tr>
+                        <td>
+                            Lecture 17 (Fri): Floating Point
+                            (<a href="lectures/17_FloatingPoint/FloatingPoint.pdf">slides</a>, <a href="https://github.com/cs107e/cs107e.github.io/tree/master/lectures/17_FloatingPoint/code">code</a>, <a href=""https://youtu.be/LkNcYPatt1w>screencast</a>)
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Week 10 Dec 3</strong></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Lecture 18 (Mon): Wrap
+                            (<a href="https://github.com/cs107e/cs107e.github.io/tree/master/lectures/18_WrapUp/wrapup.pdf">slides</a>, <a href="https://youtu.be/YRxcadBIMZA">Screencast</a>)
+                        </td>
+                        <td></td>
+                    </tr>
+                    <!--
+                        <tr>
+                        <td>Project Lab 2</td>
+                        <td>{% include link.html href="/labs/projectlab2/" %}</td>
+                        <td></td>
+                        <td></td>
+                        </tr>
+                    -->
+                    <tr>
+                        <td><strong>Week 11 Dec 10</strong></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Fri Dec 14 9:00-11:30 am: Final project demonstrations (<b>Mandatory, no exceptions</b>)
+                        </td>
+                        <td></td>
+                    </tr>
+    </tbody>
+</table>

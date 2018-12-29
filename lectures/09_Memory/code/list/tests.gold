@@ -1,0 +1,16 @@
+1 
+2 
+3 
+member((void *)2,list) = t 
+member((void *)5,list) = f 
+0 4 3 
+length(list) = 3 
+3 4 0 
+mist
+2 4 3 
+nist
+1 4 3 
+lunion
+2 1 4 3 
+intersection
+3 4 
